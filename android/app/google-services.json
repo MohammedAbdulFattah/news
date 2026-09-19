@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "53489044733",
+    "project_id": "task-mohammed",
+    "storage_bucket": "task-mohammed.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53489044733:android:8cae0f46708dfca24fc294",
+        "android_client_info": {
+          "package_name": "com.mohammed_ramadan.my_invoice.my_invoice"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOvOvXk2VHlvB57VbiwcaxXp5ABfNPxAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53489044733:android:bb6fddf05fd7da9b4fc294",
+        "android_client_info": {
+          "package_name": "com.mohammed_ramadan.news.news"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOvOvXk2VHlvB57VbiwcaxXp5ABfNPxAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53489044733:android:5dd9d843982dfa904fc294",
+        "android_client_info": {
+          "package_name": "com.mohammed_ramadan.task"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOvOvXk2VHlvB57VbiwcaxXp5ABfNPxAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
