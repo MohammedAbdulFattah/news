@@ -13,4 +13,6 @@ abstract final class AppColors {
   static const textGrey = Color(0xFF9CA3AF);
   static const border = Color(0xFFE2E5E9);
   static const divider = Color(0xFFE5E7EB);
+  static const shimmerBaseColor = Color(0xFFE0E0E0);
+  static const shimmerHighlightColor = Color(0xFFF5F5F5);
 }

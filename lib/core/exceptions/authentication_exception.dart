@@ -9,14 +9,10 @@ class AuthenticationException implements Exception {
   factory AuthenticationException.fromFirebase(FirebaseAuthException e) {
     switch (e.code) {
       case 'weak-password':
-        return const AuthenticationException(
-          AppStrings.passwordWeak,
-        );
+        return const AuthenticationException(AppStrings.passwordWeak);
 
       case 'email-already-in-use':
-        return const AuthenticationException(
-          AppStrings.emailAlreadyUsed,
-        );
+        return const AuthenticationException(AppStrings.emailAlreadyUsed);
 
       case 'invalid-credential' || 'wrong-password' || 'user-not-found':
         return const AuthenticationException(AppStrings.invalidEmailOrPassword);

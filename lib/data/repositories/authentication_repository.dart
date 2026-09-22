@@ -43,10 +43,7 @@ class AuthenticationRepository {
     try {
       final googleSignIn = GoogleSignIn.instance;
 
-      await googleSignIn.initialize(
-        serverClientId:
-           AppSecrets.serverClientId ,
-      );
+      await googleSignIn.initialize(serverClientId: AppSecrets.serverClientId);
 
       final googleUser = await googleSignIn.authenticate();
 
