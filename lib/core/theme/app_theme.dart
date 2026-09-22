@@ -36,6 +36,8 @@ abstract final class AppTheme {
           elevation: 0,
         ),
       ),
+      chipTheme: ChipThemeData(shape: StadiumBorder()),
+      cardTheme: CardThemeData(elevation: 0),
     );
   }
 }

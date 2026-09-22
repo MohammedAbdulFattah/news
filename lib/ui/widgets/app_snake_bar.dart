@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:news/core/extensions/context_extension.dart';
 
-class AppSnakeBar {
+abstract final class AppSnakeBar {
   static void show({
     required BuildContext context,
     required String message,

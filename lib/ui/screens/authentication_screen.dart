@@ -49,7 +49,7 @@ class _AuthenticationScreenState extends ConsumerState<AuthenticationScreen>
               child: ConstrainedBox(
                 constraints: const BoxConstraints(maxWidth: 600),
                 child: Padding(
-                  padding: MediaQuery.sizeOf(context).width > 600
+                  padding: context.isLargeScreen
                       ? AppPaddings.largePagePadding
                       : AppPaddings.smallPagePadding,
                   child: Column(

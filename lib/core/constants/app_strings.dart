@@ -25,13 +25,22 @@ abstract final class AppStrings {
   static const passwordWeak = 'The password is too weak.';
   static const emailAlreadyUsed = 'Email already used';
   static const invalidEmailOrPassword = 'Invalid email or password.';
-  static const accountDisable ='This account has been disabled.';
-  static const checkInternetConnection = 'Please check your internet connection.';
+  static const accountDisable = 'This account has been disabled.';
+  static const checkInternetConnection =
+      'Please check your internet connection.';
   static const authenticationFailed = 'Authentication failed.';
-
-
-
-
-
-
+  static const cancel = 'Cancel';
+  static const areYouSureToLogout = 'Are you sure to Logout';
+  static const unableToLoadNews = 'Unable to load news';
+  static const tryAgain = 'Try Again';
+  static const pleaseTryAgain = 'Please try again.';
+  static const selectCategory = 'Select Category';
+  static const category = 'Category';
+  static const selectCountry = 'Select Country';
+  static const country = 'Country';
+  static const searchNews = 'Search news...';
+  static const noTitle = 'No Title';
+  static const unknownSource = 'Unknown source';
+  static const sortBy = 'Sort by';
+  static const noArticlesFound = 'No articles found';
 }

@@ -10,7 +10,7 @@ import 'firebase_options.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-  runApp(ProviderScope(child: const MyApp()));
+  runApp(ProviderScope(retry: (retryCount, error) => null,child: const MyApp()));
 }
 
 class MyApp extends ConsumerWidget {
